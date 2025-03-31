@@ -10,7 +10,7 @@ It uses ytuner version 1.2.6—change the binaries as needed.
 This build was tested with a *Pioneer N-50A*.
 
 The original website, pioneer.vtuner.com, is no longer functional and has been completely abandoned.
-# Ytuner has revived my network player!
+# Ytuner has revived my network player *Pioneer N-50A*!
 
 >git clone https://github.com/gpopesc/ytuner.git
 >
@@ -26,10 +26,10 @@ modify the fixed available IP address from yout network, the subnet and gateway 
 > 
 
 
-Below the original description:
 
 
-# YTuner
+
+# Below the original description: YTuner
 
 YTuner is a simple project inspired by YCast but rewritten from scratch and greatly improved. Designed to replace vTuner internet radio service and dedicated to all users of AVRs made by Yamaha, Denon, Onkyo, Marantz, Grundig and others with built-in vTuner support. If you own one (or even more) of the vTuner-enabled AVRs mentioned above and want to enjoy free internet radio stations on your device as before, and be sure that your device's streaming service won't suddenly end, you should consider using YTuner.
 Why
