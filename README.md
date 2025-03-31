@@ -1,3 +1,6 @@
+
+![image](https://github.com/gpopesc/ytuner/blob/main/n50a.png)
+
 # Project forked from https://github.com/coffeegreg/YTuner
 
 Use the project link for more details. The original Docker installation using network: host is here:
@@ -18,7 +21,8 @@ The original website, pioneer.vtuner.com, is no longer functional and has been c
 >
 >ip -br a #*and select your interface, then change it in your docker compose*
 >
-modify the fixed available IP address from yout network, the subnet and gateway acordingly in docker-compose then:
+
+Modify the fixed available IP address from your network, the subnet, and gateway accordingly in docker-compose, then:
 
 >docker-compose build
 >
