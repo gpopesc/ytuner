@@ -26,6 +26,8 @@ modify the fixed available IP address from yout network, the subnet and gateway 
 > 
 
 
+Below the original description:
+
 
 # YTuner
 
@@ -34,11 +36,6 @@ Why
 
 YCast is a great project, but my goal was to run a similar service on a very low-spec platform where python along with packages turned out to be too heavy and too slow. Now, with YTuner you can enjoy improved functionality at full speed of ultra lightweight native app on operating systems such as:
 
-
-
-and with tested CPU architecture:
-
-  AMD64/x86_64
 
 or any others powered by cross-build abilities of Free Pascal Compiler.
 Features
