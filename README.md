@@ -1,8 +1,29 @@
-#Project fork from https://github.com/coffeegreg/YTuner 
-Use project link for more details.
+#Project forked from https://github.com/coffeegreg/YTuner
 
-This is adapted to use docker-compose and new private IP address from your network
-I use Synology and it can't be used directly because I have already web services and DNS container, therefore ports 80 and 53 are already taken,
+Use the project link for more details. The original Docker installation using network: host is here:
+https://github.com/coffeegreg/YTuner/blob/master/doc/DOCKER.md
+
+This version is adapted to use docker-compose and a private IP address from your network.
+I use Synology, which couldn’t run it directly because my web services and DNS container already occupy ports 80 and 53.
+
+It uses version 1.2.6—change the binaries as needed.
+This build was tested with a Pioneer N-50A.
+
+The original website, pioneer.vtuner.com, is no longer functional and has been completely abandoned.
+#Ytuner has revived my network player!
+
+>git clone https://github.com/gpopesc/ytuner.git
+>
+>cd ytuner
+>
+>ip -br a #*and select your interface, then change it in your docker compose*
+>
+modify the fixed IP address from yout network and subnet and gatway acordingly in docker-compose then:
+>docker-compose build
+>
+>docker-compose up -d
+> 
+
 
 
 #YTuner
@@ -12,7 +33,7 @@ Why
 
 YCast is a great project, but my goal was to run a similar service on a very low-spec platform where python along with packages turned out to be too heavy and too slow. Now, with YTuner you can enjoy improved functionality at full speed of ultra lightweight native app on operating systems such as:
 
-    Linux, macOS, BSD, Solaris, Raspberry Pi OS, OpenWRT, Windows
+
 
 and with tested CPU architecture:
 
