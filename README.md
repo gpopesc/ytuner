@@ -1,16 +1,16 @@
-#Project forked from https://github.com/coffeegreg/YTuner
+# Project forked from https://github.com/coffeegreg/YTuner
 
 Use the project link for more details. The original Docker installation using network: host is here:
 https://github.com/coffeegreg/YTuner/blob/master/doc/DOCKER.md
 
 This version is adapted to use docker-compose and a private IP address from your network.
-I use Synology, which couldn’t run it directly because my web services and DNS container already occupy ports 80 and 53.
+I use Synology, I couldn’t run it directly because my web services and DNS container already occupy ports 80 and 53.
 
-It uses version 1.2.6—change the binaries as needed.
-This build was tested with a Pioneer N-50A.
+It uses ytuner version 1.2.6—change the binaries as needed.
+This build was tested with a *Pioneer N-50A*.
 
 The original website, pioneer.vtuner.com, is no longer functional and has been completely abandoned.
-#Ytuner has revived my network player!
+# Ytuner has revived my network player!
 
 >git clone https://github.com/gpopesc/ytuner.git
 >
@@ -18,7 +18,8 @@ The original website, pioneer.vtuner.com, is no longer functional and has been c
 >
 >ip -br a #*and select your interface, then change it in your docker compose*
 >
-modify the fixed IP address from yout network and subnet and gatway acordingly in docker-compose then:
+modify the fixed available IP address from yout network, the subnet and gateway acordingly in docker-compose then:
+
 >docker-compose build
 >
 >docker-compose up -d
@@ -26,7 +27,7 @@ modify the fixed IP address from yout network and subnet and gatway acordingly i
 
 
 
-#YTuner
+# YTuner
 
 YTuner is a simple project inspired by YCast but rewritten from scratch and greatly improved. Designed to replace vTuner internet radio service and dedicated to all users of AVRs made by Yamaha, Denon, Onkyo, Marantz, Grundig and others with built-in vTuner support. If you own one (or even more) of the vTuner-enabled AVRs mentioned above and want to enjoy free internet radio stations on your device as before, and be sure that your device's streaming service won't suddenly end, you should consider using YTuner.
 Why
