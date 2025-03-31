@@ -1,0 +1,27 @@
+version: "3"
+services:
+    ytuner:
+        image: ytuner:1.2.6
+        container_name: ytuner
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - ./share:/app/host-shared
+        restart: always
+        # cap_add:
+        #     - NET_ADMIN
+        networks:
+            macvlan_network:
+                ipv4_address: 192.168.1.170  # Assign a free IP in your network
+
+networks:
+  macvlan_network:
+    driver: macvlan
+    driver_opts:
+      parent: ovs_eth1  # ip -br a and see the name of your network interface
+    ipam:
+      config:
+        - subnet: 192.168.1.0/24  # Match your network's subnet
+          gateway: 192.168.1.1  # router's gateway
+
