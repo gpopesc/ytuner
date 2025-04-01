@@ -17,6 +17,7 @@ COPY share/ /app/host-shared/
 EXPOSE 80/tcp
 EXPOSE 53/udp
 
+RUN mkdir -p /app/host-shared/db /app/host-shared/cache
 RUN chmod 777 -R /app/host-shared/
 RUN chmod +x /app/ytuner
 # Run YTuner.
