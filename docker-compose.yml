@@ -9,8 +9,7 @@ services:
         volumes:
             - ./share:/app/host-shared
         restart: always
-        # cap_add:
-        #     - NET_ADMIN
+        # network_mode: "host"  # Container shares the host's IP, like in original documentation
         networks:
             macvlan_network:
                 ipv4_address: 192.168.1.170  # Assign a free IP in your network
