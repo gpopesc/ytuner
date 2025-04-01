@@ -11,6 +11,7 @@ WORKDIR /app
 
 # Copy the YTuner files from host into container image.
 COPY bin/ /app/
+COPY share/ /app/host-shared/
  
 # Make the TCP/UDP ports to outside the container.
 EXPOSE 80/tcp
