@@ -22,7 +22,7 @@ Use wired connection, sometimes wireless connection is not taking the IP address
 The original website, pioneer.vtuner.com, is no longer functional and has been completely abandoned.
 # Ytuner has revived my network player *Pioneer N-50A*!
 
-<b> Instalation: </b>
+**Instalation:**
 >git clone https://github.com/gpopesc/ytuner.git
 >
 >cd ytuner
@@ -38,8 +38,10 @@ Modify the fixed available IP address from your network, the subnet, and gateway
 >
 First time wait about 1 minute to complete download of radio database and check the docker log file if everything is running. 
 
-
-
+**Setup the network player:**
+Access the network player on web interface (search for ip in router or in network player info)
+Change DHCP to OFF and change the DNS to the ytunner IP defined earlier
+![image](https://github.com/gpopesc/ytuner/blob/main/pioneer.png)
 
 *******************************************************************
 # Below the original description: YTuner
