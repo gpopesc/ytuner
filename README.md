@@ -38,6 +38,24 @@ Modify the fixed available IP address from your network, the subnet, and gateway
 >
 First time wait about 1 minute to complete download of radio database and check the docker log file if everything is running. 
 
+The log should look like below:
+
+`YTuner v1.2.6 Copyright (c) 2024 Greg P. (https://github.com/coffeegreg)`
+
+`31-3-25 22:17:25 : Inf : Starting services...`
+
+`31-3-25 22:17:25 : Inf : Successfully loaded 11 my stations.`
+
+`31-3-25 22:17:25 : Dbg : Database library : 3.44.2.`
+
+`31-3-25 22:17:25 : Inf : Checking local database.`
+
+`31-3-25 22:17:25 : Inf : Local database is ready.`
+
+`31-3-25 22:17:25 : Inf : DNS Service: listening on: 192.168.1.170:53.`
+
+`31-3-25 22:17:25 : Inf : Web Service: listening on: 192.168.1.170:80.`
+
 **Setup the network player:**
 
 Access the network player on web interface (search for its ip in router or in network player info)
