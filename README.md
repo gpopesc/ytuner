@@ -42,6 +42,7 @@ First time wait about 1 minute to complete download of radio database and check 
 Access the network player on web interface (search for ip in router or in network player info)
 Change DHCP to OFF and change the DNS to the ytunner IP defined earlier
 ![image](https://github.com/gpopesc/ytuner/blob/main/pioneer.png)
+Now when player is trying to connect to pioneer.vtuner.com it is automatically redirected to local ytuner.
 
 *******************************************************************
 # Below the original description: YTuner
