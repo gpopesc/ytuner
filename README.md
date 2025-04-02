@@ -39,8 +39,10 @@ Modify the fixed available IP address from your network, the subnet, and gateway
 First time wait about 1 minute to complete download of radio database and check the docker log file if everything is running. 
 
 **Setup the network player:**
+
 Access the network player on web interface (search for its ip in router or in network player info)
-Change DHCP to OFF and change the DNS to the ytunner IP defined earlier
+
+Change DHCP to OFF and change the DNS to the ytuner IP defined earlier
 ![image](https://github.com/gpopesc/ytuner/blob/main/pioneer.png)
 
 Now when player is trying to connect to pioneer.vtuner.com it is automatically redirected to local ytuner.
